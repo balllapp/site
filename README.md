@@ -1,8 +1,8 @@
-## Welcome to Balll!
+# Welcome to Balll!
 
 Balll is a physics simulation that has a lot of features!
 
-The main features of the app:
+## Features
 - Changing gravity based on your accelerometer;
 - Twelve types of balls to experiment with;
 - The simulation is fully customizable: many settings and options are provided;
