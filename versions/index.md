@@ -16,3 +16,5 @@ Fixed the gravity ball being too large.
 Added movable gravity balls and stationary magnet balls (accessible through an egg).
 Fixed the text colour being white on some phones.
 Fixed bubbles being too attracted to gravity balls.
+
+## [Back to Main Page](https://balllapp.github.io/site)
