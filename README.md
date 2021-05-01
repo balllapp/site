@@ -4,7 +4,7 @@ Balll is a physics simulation that has a lot of features!
 
 The main features of the app:
 - Changing gravity based on your accelerometer;
-- Eleven types of balls to experiment with;
+- Twelve types of balls to experiment with;
 - The simulation is fully customizable: many settings and options are provided;
 - Ten different types of graphs, updated real-time;
 - The app is being updated regularly!
