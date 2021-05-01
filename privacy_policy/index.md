@@ -62,3 +62,5 @@ on this page. These changes are effective immediately, after they are posted on 
 ## Contact Us
 If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact
 me.
+
+## [Back](https://balllapp.github.io/site)
