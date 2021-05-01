@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+## Welcome to Balll!
 
-You can use the [editor on GitHub](https://github.com/balllapp/site/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Balll is a physics simulation that has a lot of features!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The main features of the app:
+- Changing gravity based on your accelerometer;
+- Eleven types of balls to experiment with;
+- The simulation is fully customizable: many settings and options are provided;
+- Ten different types of graphs, updated real-time;
+- The app is being updated regularly!
 
-### Markdown
+### Warning
+This app is not fully developed and may not have an intuitive UI. Please refer to the tutorials to learn how to use the app.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/balllapp/site/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Privacy policy: [Privacy Policy](https://balllapp.github.io/site/privacy_policy)
