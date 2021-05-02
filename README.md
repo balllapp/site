@@ -12,6 +12,6 @@ Balll is a physics simulation that has a lot of features!
 ### Warning
 This app is not fully developed and may not have an intuitive UI. Please refer to the tutorials to learn how to use the app.
 
-[Privacy Policy](https://balllapp.github.io/site/privacy_policy)
-
 [Version List](https://balllapp.github.io/site/versions)
+
+[Privacy Policy](https://balllapp.github.io/site/privacy_policy)
