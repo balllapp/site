@@ -10,7 +10,8 @@ Balll is a physics simulation that has a lot of features!
 - The app is being updated regularly!
 
 ### Warning
-This app is not fully developed and may not be intuitive. Please refer to the tutorials to learn how to use the app.
+This app is not fully developed (in alpha) and may not be intuitive to use.
+Please refer to the tutorials to learn how to use the app.
 
 [Play Store](https://play.google.com/store/apps/details?id=com.balll.balll)
 
