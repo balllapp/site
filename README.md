@@ -1,4 +1,4 @@
-# Welcome to Balll!
+# Welcome to [Balll](https://balllapp.github.io/site)!
 
 Balll is a physics simulation that has a lot of features!
 
@@ -10,7 +10,9 @@ Balll is a physics simulation that has a lot of features!
 - The app is being updated regularly!
 
 ### Warning
-This app is not fully developed and may not have an intuitive UI. Please refer to the tutorials to learn how to use the app.
+This app is not fully developed and may not be intuitive. Please refer to the tutorials to learn how to use the app.
+
+[Play Store](https://play.google.com/store/apps/details?id=com.balll.balll)
 
 [Version List](https://balllapp.github.io/site/versions)
 
