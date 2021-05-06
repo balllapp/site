@@ -1,5 +1,26 @@
 # Version List
 
+### v2.21
+- Changed how ball makers look.
+- Made an option for ball makers to produce eaters and exploders (or nothing, if you prefer).
+- Made options for ball makers to change the ball settings.
+- Made ball makers not interact at all with other balls.
+- Added +/- symbols for magnet balls (and walls).
+- Changed some old version texts.
+- Fixed Gravity Ball and Magnet Wall having no options menu when selected.
+- Fixed Gravity Ball having an unknown force acting on it.
+- Made Magnet Wall stronger.
+
+### v2.20
+- Grouped the balls into categories in the add ball page!
+- Renamed Gravity Ball to Gravity Wall and changed the colours of Magnet Ball.
+- Added Gravity Ball in the Balls category. Basically a movable Gravity Wall.
+- Also added Magnet Wall in the Walls category. Basically a stationary Magnet Ball.
+- Added a quit button in the left sidebar.
+- Pressing the phone's back button in the main and settings pages works normally now.
+- Fixed scan page having wrong options.
+- Fixed some problems in save strings (used in QR codes).
+
 ### v2.19
 - Added Balloon! Balloons spin around and reduces in size.
 - Select tool is now a toggleable function.
@@ -9,7 +30,7 @@
 
 ### v2.18
 - Changed permanently selected colour in the add ball page.
-- • • • • • Added bullet points (•) to the versions page.
+- • • • • • Added bullet points (•) to all the versions in the versions page.
 - Adding balls while paused now updates the screen.
 - Fixed the select ball tool formula.
 - Fixed the set radius function resetting other ball settings.
@@ -50,13 +71,12 @@
 - Fixed the scan QR code feature not working for older phones.
 
 ### v2.11
-- Made the 'transfer between phones' feature using a QR code! (uses firebase)
+- Made the 'transfer between phones' feature using a QR code!
 - Added new fragment: scan fragment. Allows the user to scan QR codes.
 - Fixed 🐞s.
 
 ### v2.10
-- Connected the app to Firebase! Using the Realtime Database feature.
-- Created a helper class to use the database.
+- Connected the app to Firebase!
 
 ### v2.09
 - Fixed: When 'mark all as read' is clicked, the app crashes.
@@ -67,7 +87,7 @@
 - Fixed gravity ball not having a menu.
 - Fixed gravity ball having infinite force when the distance is zero.
 - Made changes to the set mass/radius/restitution/frequency dialog.
-- Added a nice useful easter egg.
+- Added a useful easter egg.
 
 ### v2.07
 - Added gravity ball, it sucks... 
@@ -99,26 +119,27 @@
 - Hopefully the app doesn't crash because of this.
 
 ### v2.01
-- Fixed the set mass function. Why didn't I test it out?
+- Fixed the set mass function.
 - Tried to optimise the app but failed. Again.
 
 ### v2.00
-- Submitted the project.
-- All versions after this one is not included in the final submission.
+- Submitted the app as a project.
+- Disclaimer: All versions after v2.00 are not included in the final APK.
 
 ### v1.54
-- Made the set radius function better and added set mass.
+- Made the set radius function better.
+- Added a set mass option for some balls.
 - Added the about dialog.
-- Fixed some bugs too.
+- Fixed some bugs.
 
 ### v1.53
 - Made graphs have a back button.
 - Added 1 more video to the tutorial.
-- Changed the theme of the app.
+- Changed the theme color of the app (again).
 
 ### v1.52
-- Made the tutorial! It consists of 1 GIF and 3 videos.
-- Added setting to show/hide the play/pause button.
+- Finally made the tutorial! It consists of 1 GIF and 3 videos.
+- Added setting to show or hide the play/pause button.
 - Made 10 types of graphs actually work!
 
 ### v1.51
@@ -148,12 +169,11 @@
 
 ### v1.44
 - Added a working navigation drawer after a very long time.
-- Moved canvas to the back because it was covering a lot of things.
-- Tried to multi-thread at this point but there are too many errors.
+- Moved the surface to the back because it was covering a lot of things.
 
 ### v1.43
 - Changed permanently selected to be the default option in the add ball page.
-- Deletes exploder balls when there is too many of them to avoid more lag.
+- The app now deletes exploder balls when there is too many of them, to avoid lag.
 
 ### v1.42
 - Added paint balls! 5 colours: red, blue, green, black, white.
@@ -163,32 +183,31 @@
 ### v1.41
 - Added zooming with two fingers.
 - Removed zooming with two fingers due to inconsistent borders.
-- Also fixed many, many bugs (ants).
+- Also fixed many, many bugs and ants.
 
 ### v1.40
 - You can now pan the screen in select mode.
 - You can also move balls in select mode.
 
 ### v1.37
-- Added Plank Ball, which is basically a stationary ball.
+- Added Plank Ball, which is basically a stationary wall.
 - Rearranged balls in the add ball page.
-- Prevented stationary balls from being flicked.
-- Fixed a bug where the arrows are not hiding.
+- Prevented stationary balls from being flicked when added.
+- Fixed bug where the arrows are not hidden.
 
 ### v1.36
-- Made exploders explode more explode-ly and accurately.
-- Added more suitable options menus for balls.
-- Fixed the app not saving the read/unread state of versions and other preferences using string sets.
+- Made exploders explode more explode-like and accurately.
+- Added more suitable option menus for balls.
+- Fixed the app not saving the read/unread state of versions and arrow preferences.
 
 ### v1.35
-- New ball: Exploder Ball.
-- Added a setting to read all new versions. (like this one)
-- Boom!
+- New ball: Exploder Ball!
+- Added a setting to read all new versions, like this one.
 
 ### v1.34
-- Balls can now change colour using an interesting color picker.
+- Balls can now change colours using an interesting color picker.
 - Made some settings: animations for versions (on/off) and advanced colour pickers (on/off).
-- Changed some icons and rearranged some options menus.
+- Changed some icons and rearranged some option menus.
 
 ### v1.33
 - Made the versions page keep track of whether a version is new or not.
@@ -196,52 +215,52 @@
 - Alternatively, mark all as read by going to the options menu.
 
 ### v1.32
-- Made nice slide animations in the versions page and fall down animation in the add ball page.
-- Random animations in the versions page just for fun.
-- Optimised the main loop thread.
+- Made nice slide animations in the versions page and fall down animation upon entering the add ball page.
+- Random animations in the versions page, just for fun.
+- Optimised the main loop threading.
 
 ### v1.31
-- Made colours in the versions page to separate the main versions.
+- Added some colours in the versions page to distinguish the main versions.
 - Fixed some bugs in the versions page.
 - Added easter egg.
 
 ### v1.30
-- Created all the versions, which should have existed from the start. Yes.
-- Created a fragment with a recycler view and an adapter to display this.
+- Created the versions page, which should have existed from the start.
+- Created a new page with a recycler view to display this.
 
 ### v1.27
-- Added serialization of balls using a data class.
+- Added serialization (saving) of balls using Gson.
 
 ### v1.26
-- Made the large gap in the list of balls to add smaller.
-- Fixed a few bugs in settings.
+- Made the large gaps in the add ball page smaller.
+- Fixed a few bugs in the settings page.
 
 ### v1.25
-- There are now back buttons in the top left corner where applicable.
-- The normal back button will also have more normal behaviour.
-- There is now a space between the icon and title of the toolbar.
+- There are now back buttons in the top left corner, where applicable.
+- The phone's in-built back button will also have expected behaviour.
+- There is now a space between the icon and title in the toolbar.
 
 ### v1.24
-- Graph settings: graph time and graph interval
-- Settings: graph time and graph interval
+- Graph settings: graph time and graph interval.
+- Graph time controls total graphing time and graph interval sets the interval between data points.
 
 ### v1.23
-- A new way to add balls:
-- Flicking and letting go can launch a ball with some initial velocity.
+- A new way to add balls!
+- Flicking and letting go while using the add tool can launch a ball with some initial velocity.
 - The flick strength can be changed in the settings.
 
 ### v1.22
-- Planets in the settings show the g value relative to Earth's g.
-- Made the setting to show touches actually work.
-- The setting to permanently show the onboarding screen now works.
+- Planets in the settings display their g value relative to Earth's g.
+- Made the setting 'show touches' work.
+- The setting to permanently show the tutorial screen now works.
 
 ### v1.21
 - Made the graph's x-axis positioned at the zero mark.
 - Made the graph axes thicker.
-- The graph dialog status bar colour is consistent.
+- The graph dialog status bar colour is consistent with the rest of the app.
 
 ### v1.20
-- Made graphs work fully. Yay!
+- Made graphs work fully!
 - Graphs are shown as a overlay, with the ball(s) still visible below.
 
 ### v1.14
@@ -253,15 +272,15 @@
 - An 'increase radius' option is made for default balls to test this out.
 
 ### v1.12
-- Made an icon for the app.
-- Changed the app's theme colour to the other default colour.
+- Made an icon for the app!
+- Changed the app's theme colour from purple to cyan.
 
 ### v1.11
 - A submenu is made for the clear options in the main options menu.
 - Made a setting to permanently show the onboarding screen.
 
 ### v1.10
-- Made the model for the graphs.
+- Made graphs, but they are not accessible yet.
 - Made the graph dialog window background translucent.
 
 ### v1.06
@@ -269,18 +288,17 @@
 - Acceleration arrows also vary to match gravity magnitude.
 
 ### v1.05
-- Settings: Used many planets to vary gravity instead of a seekbar.
+- Settings: Used many planets to vary gravity instead of a slider.
 - Custom gravity still exists.
 - Added easter egg.
 
 ### v1.04
 - Switched back from TextureView to SurfaceView, because TextureView looks laggy.
-- Use a thread this time because SurfaceView also looks laggy.
-- The app looks less laggy.
+- Used threading this time because SurfaceView also looks laggy.
 
 ### v1.03
-- The gravity magnitude can be changed in the settings.
-- Made a custom logger, and other speed optimisations.
+- The gravity magnitude can be changed in the settings page!
+- Made a custom logger and other speed optimisations.
 
 ### v1.02
 - Made the UI work faster by switching from SurfaceView to TextureView.
@@ -289,29 +307,29 @@
 ### v1.01
 - Graphics settings: show touches, show arrows and a multi-select for arrow types to show.
 - Arrow types: velocity, acceleration
-- All of them doesn't work yet.
+- All of these settings does not work (yet).
 
 ### v1.00
 - Pushed project to GitHub.
 
 ### v0.26
-- New functionality: deleting balls.
-- New balls: deleter, eater.
+- New functionality: deleting balls using other balls.
+- New balls: Deleter, Eater Ball.
 - The deleter is stationary but the eater can move. Both can delete balls that they touch.
 
 ### v0.25
-- The action bar options (menu) now change when switching fragments.
-- Some menu xml files and actions in the navigation graph are created.
+- The action bar options menu now change when the page changes.
+- Created some XMLs for menus and actions for the app's navigation.
 - Added easter egg.
 
 ### v0.24
-- Nice bouncy animation when going to the settings fragment.
-- App setting: show onboarding again.
+- Bounce animation when visiting to the settings page.
+- New app setting: show tutorial again.
 - Changed the custom preferences class for the new settings.
 
 ### v0.23
-- Balls can be selected once only, or permanently selected.
-- Ball makers however cannot be permanently selected due to spam.
+- Balls can now be selected once only or permanently in the add ball page.
+- Ball makers, however, cannot be permanently selected.
 
 ### v0.22
 - 3 different types of clear.
@@ -327,28 +345,27 @@
 - Added some actions in the navigation graph.
 
 ### v0.18
-- Added a recyclerView in the ball fragment to select which balls to add on click.
+- Added a recycler view in the ball fragment to select which balls to add on click.
 - Balls are always permanently selected.
 
 ### v0.17
-- Added some more useful libraries to the project without using them. (e.g. a colour picker)
-- App onboarding now remembers whether the user have seen it before.
+- Added some more libraries to the app (e.g. a colour picker)
+- App tutorial now remembers whether the user have seen it before.
 
 ### v0.16
-- Fixed a lot of bugs found by testing the app during CS lesson.
-- Used the project for COVID TODAY. (irrelevant)
+- Fixed a lot of bugs.
 
 ### v0.15
-- Added ball types: default ball, stationary ball maker. (also borders)
+- Added new balls: Default Ball, Ball Maker.
 - Made borders on the screen so that balls don't fly away.
 
 ### v0.14
-- Tools: add, select and delete.
-- Balls can now be selected. (no use for now)
+- Added some tools: add, select and delete.
+- Balls can now be selected. (which has no use for now)
 - Balls can now be deleted.
 
 ### v0.13
-- Made the project more compatible with old phones.
+- Made the project more compatible with old phones. Works on Android 5.0!
 - Used the normal accelerometer instead of other sensors.
 
 ### v0.12
@@ -357,40 +374,38 @@
 
 ### v0.11
 - Tapping on the screen adds a normal blue bouncy ball.
-- Added ball builder class to build a ball.
+- Added a class to build balls.
 
 ### v0.10
-- Made the base classes Ball and Space for the physics model.
-- Gravity can be changed.
+- Made Ball and Space to use in the physics model.
+- Gravity can be changed now.
 
 ### v0.06
 - Made a custom preferences class to keep track of the android shared preferences.
-- Changed onboarding pictures to green blobs.
+- Changed onboarding/tutorial pictures.
 
 ### v0.05
-- Added some default onboarding with 2 tabs.
-- Changed onboarding pictures to green blobs.
-- Used the physics library to do a test.
+- Added some onboarding/tutorial with 2 tabs.
+- Tested the physics library (dyn4j).
 
 ### v0.04
-- Made a android canvas wrapper class.
+- Made a android canvas wrapper.
 - Added a timer class to execute functions periodically.
 
 ### v0.03
-- Added some useful libraries to the project.
-- Added a lot of old code and utility classes to the project.
-- e.g. file I/O, snackbar/dialog, keyboard/clipboard, dialog fragment things
+- Added some old code and utility classes.
+- Added some useful libraries.
 
 ### v0.02
-- Renamed all fragments and layouts to be more relevant (more bally).
-- Put a SurfaceView in the main fragment to draw on the screen.
+- Renamed all fragments and layouts to be more relevant.
+- Used a surface view for drawing on the screen.
 
 ### v0.01
-- Added sensors.
-- Used gravity and linear acceleration sensors, which are apparently not compatible with old phones.
+- The app now uses sensors.
+- The gravity and linear acceleration sensors are used (which are apparently not compatible with old phones).
 
 ### v0.00
-- Created project with the basic activity template.
-- 1 activity, 2 fragments and 4 layouts created.
+- Created app!
+- The main activity and a few fragments are made.
 
 ## [Back to Main Page](https://balllapp.github.io/site)
