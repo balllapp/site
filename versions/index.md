@@ -1,5 +1,21 @@
 # Version List
 
+### v2.23
+- Added Polygon Wall in the walls category! This special ball allows the making of straight walls.
+- Options for polygon wall nodes: set radius/colour, toggle deleter, link to another node, unlink all nodes.
+- Options for polygon wall planks: set thickness/colour, toggle deleter.
+- Added zooming feature!
+- Zoom can be turned on in the settings page.
+- Added option (in the main page) to reset the zoom.
+- Removed the whole 'clear' category in the settings page.
+- Added a snackbar when clearing balls from the options menu.
+
+### v2.22
+- The toolbar title is updated depending on the current tool.
+- Added an FPS counter at the top left corner.
+- Removed the tutorial entirely, reducing app size by over 80%!
+- Fixed Gravity Balls attracting large objects too weakly.
+
 ### v2.21
 - Changed how ball makers look.
 - Made an option for ball makers to produce eaters and exploders (or nothing, if you prefer).
