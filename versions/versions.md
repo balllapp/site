@@ -1,5 +1,12 @@
 # Version List
 
+### v2.2.5
+- Added Counter. 1, 2, 3, 4, 5...
+- Counter counts the number of collisions it experiences.
+- Added an interactive tutorial to the app.
+- Added a new tool: Duplicate.
+- Balls now get deleted when they go too far from the centre.
+
 ### v2.2.4
 - Added Start Point and End Point. Used for... a game?
 - Added Chaser Ball. Targets a random ball and focuses on it until it gets deleted.
