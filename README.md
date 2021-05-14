@@ -3,15 +3,16 @@
 Balll is a physics simulation that has a lot of features!
 
 ## Features
-- Changing gravity based on your accelerometer;
-- 15 + 1 types of balls to experiment with;
-- The simulation is fully customizable: many settings and options are provided;
-- Ten different types of graphs, updated real-time;
-- The app is being updated regularly!
+- Changing gravity when you tilt your phone;
+- 20 (+ 1) types of balls to experiment with;
+- The simulation is fully customizable and many settings and options are provided;
+- Ten different types of graphs (e.g. velocity time graph);
+- The app is updated regularly!
 
 ### Warning
-This app is not fully developed (in alpha) and may not be intuitive to use.
-Please refer to the tutorials to learn how to use the app.
+This app is in early access and may not be complete.
+Please refer to the tutorial to learn how to use the app.
+
 
 [Play Store](https://play.google.com/store/apps/details?id=com.balll.balll)
 
