@@ -1,11 +1,25 @@
 # Version List
 
+### v2.3.0
+- The app is now under open testing in the Play Store!
+- Added project saving and a new file system!
+- Folders can be created and nested in other folders.
+- A new projects page is made, for browsing, creating folders and also opening projects.
+- The sidebar (menu drawer) has the browse projects option.
+- Files and folders can be renamed and deleted using the options menu beside every file/folder.
+- Project files can be converted to text and uploaded as text.
+- Projects auto-save every 15 seconds (if it is already saved to a file).
+- Added 3 settings related to auto-saves.
+- Added a slight colour tint to the 3 main toolbar button icons.
+- Changed the default settings.
+
 ### v2.2.5
 - Added Counter. 1, 2, 3, 4, 5...
 - Counter counts the number of collisions it experiences.
 - Added an interactive tutorial to the app.
 - Added a new tool: Duplicate.
 - Balls now get deleted when they go too far from the centre.
+- Fixed Paint Ball looking funny in the add ball page.
 
 ### v2.2.4
 - Added Start Point and End Point. Used for... a game?
