@@ -1,5 +1,12 @@
 # Version List
 
+### v2.3.1
+- Added update reminders. Whenever a new update is available, a pop-up will pop up.
+- Added Text Balls. When a player touches it, it says 'Hello'!
+- A save button now appears when the project is not saved.
+- Deleting balls in pause mode now 'works'.
+- Made certain balls look rounder in the add ball page and fixed paint ball.
+
 ### v2.3.0
 - The app is now under open testing in the Play Store!
 - Added project saving and a new file system!
