@@ -1,5 +1,34 @@
 # Version List
 
+### v2.3.4a
+- Fixed the navigation bug(s) (not spotted since 1.2.3!)
+- and other bugs, as usual.
+
+### v2.3.4
+- Added Helium Ball! Behaves like a ball made of helium.
+- Ball makers can now produce balloons, bubbles and helium balls.
+- New option for ball makers: max balls.
+- Fixed balloons and bubbles affecting the whole world's gravity and other bugs.
+
+### v2.3.3
+- Added a grid! It is turned on by default and can be disabled in the settings.
+- Added two options to configure grids: grid size and sub-squares.
+- Added Glass Wall! Basically a stationary glass ball.
+- Changed the glass crack length and crack strength.
+- Added option to set a custom strength for a glass object.
+- Added the clear borders options in the options menu -> clear.
+- Removed the clear all option and moved it to settings -> balls.
+- Reduced the options menu opening time (slightly).
+
+### v2.3.2
+- Made QR codes permanent. QR codes reset every time I want it to.
+- Added about section in the settings.
+- Fixed bug where certain balls are not saved.
+- Fixed polygon plank thickness display number.
+- Fixed bug when some settings are ignored.
+- Fixed other stuff.
+- Added major easter egg and a new page.
+
 ### v2.3.1
 - Added update reminders. Whenever a new update is available, a pop-up will pop up.
 - Added Text Balls. When a player touches it, it says 'Hello'!
